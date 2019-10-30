@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class NBA < Sinatra::Base
     get '/' do
-        'checking infrastructure working'
+        erb :index
     end
 end
