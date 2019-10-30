@@ -7,6 +7,10 @@ class NBA < Sinatra::Base
         erb :index
     end
 
+    get '/teams' do
+        erb :teams
+    end
+
     post '/matchup' do
         @home_team = params[:home_team]
         @away_team = params[:away_team]
