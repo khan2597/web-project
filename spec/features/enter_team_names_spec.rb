@@ -1,6 +1,6 @@
 feature 'Enter names' do
     scenario 'submit team names' do
-        visit('/match')
+        visit('/')
         fill_in :home_team, with: 'Los Angeles Lakers'
         fill_in :away_team, with: 'Los Angeles Clippers'
         click_button 'Submit'
