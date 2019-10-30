@@ -4,7 +4,7 @@ class NBA < Sinatra::Base
     enable :sessions
 
     get '/' do
-        erb :teams
+        erb :index
     end
 
     post '/matchup' do
